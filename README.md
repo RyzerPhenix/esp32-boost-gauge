@@ -7,7 +7,6 @@ Custom Turbo Boost Gauge using ESP32S3 with Round Waveshare IPS Display
 
 
 Links from the video:
-- Do you like this video? You can buy me a coffee ☕: https://www.buymeacoffee.com/upir
 - Boost pressure sensor: https://s.click.aliexpress.com/e/_DBD9ak3
 - Display with enclosure: https://s.click.aliexpress.com/e/_DkQiwQf
 - Display without enclosure: https://s.click.aliexpress.com/e/_DEe0YJv
@@ -23,8 +22,6 @@ Related videos:
 - Boost pressure Arduino + OLED: https://youtu.be/JXmw1xOlBdk
 - Pitch Roll Indicator: https://youtu.be/S_ppdbb0poQ
 - Custom Shifter Knob with Display: https://www.youtube.com/playlist?list=PLjQRaMdk7pBb6r6xglZb92DGyWJTgBVaV
-
-_This video is sponsored by PCBway. By using the link, you can get 10 PCBs for free, only paying for shipping, and at the same time, you will support this channel. Thank you, PCBway! https://www.pcbway.com/setinvite.aspx?inviteid=572577_
 
 ![THUMB_diy_boost_pressure_gauge_B](https://github.com/upiir/custom_boost_gauge_esp32/assets/117754156/e899b691-7cfe-4f21-853d-03f3aa8d6c6b)
 
@@ -85,8 +82,3 @@ Screenshots from the video:
 ![CAMTASIA_turbo_boost_gauge_waveshare_round_lcd (Time 0_43_35;28)](https://github.com/upiir/custom_boost_gauge_esp32/assets/117754156/2508a502-6e67-427f-bfd3-cac5fc1c0e3e)
 ![CAMTASIA_turbo_boost_gauge_waveshare_round_lcd (Time 0_43_41;27)](https://github.com/upiir/custom_boost_gauge_esp32/assets/117754156/f91c2691-30e7-4159-a2dd-49c8fc4b51e1)
 ![CAMTASIA_turbo_boost_gauge_waveshare_round_lcd (Time 0_43_50;24)](https://github.com/upiir/custom_boost_gauge_esp32/assets/117754156/8f098d27-a8d8-4f33-a75b-eb7a65e78cb3)
-
-
-
-
-
