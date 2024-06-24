@@ -88,7 +88,8 @@ Screenshots from the video:
 - Download and install Arduino IDE.
 - Install ESP32 on the Arduino IDE as shown below, and you can refer to this link.
 - Fill in the following link in the Additional Boards Manager URLs section of the Settings screen under File -> Preferences and save.
-'''JSON
+  
+'''json
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 '''
   ![ESP32-C3-Zero -05.jpg](https://www.waveshare.com/w/upload/a/a1/ESP32-C3-Zero_-05.jpg)
