@@ -55,3 +55,11 @@ Custom Turbo Boost Gauge using ESP32S3 with Round Waveshare IPS Display
 #### Library Installation
 - TFT_SPI, lvgl libraries need to be configured after installation, it is recommended to directly use the TFT_eSPI_Setups, TFT_eSPI, lvgl folder in [Esp32-s3-lcd-1.28-lib](https://files.waveshare.com/wiki/ESP32-S3-LCD-1.28/Esp32-s3-lcd-1.28-lib.zip) and copy it to the C:\Users\xxxx\Documents\Arduino\libraries directory. xxxx represents the user name of your computer, please be careful in identifying it.
   ![ESP32-S3-Touch-LCD-1.28-01.jpg](https://www.waveshare.com/w/upload/f/f6/ESP32-S3-Touch-LCD-1.28-01.jpg)
+- In the TFT_eSPI_Setups directory add the following line to the file Setup207_GC9A01.h:
+  ```C
+  #define USE_HSPI_PORT
+  ```
+- In the TFT_eSPI directory comment out the following line in the file User_Setup_select.h:
+  ```
+  #include User_Setup.h
+  ```
