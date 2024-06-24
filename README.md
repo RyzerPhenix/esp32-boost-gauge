@@ -39,19 +39,19 @@ Custom Turbo Boost Gauge using ESP32S3 with Round Waveshare IPS Display
 
 ## Upload Code
 ### Arduino
-- Download and install Arduino IDE.
-- Install ESP32 on the Arduino IDE as shown below, and you can refer to this link.
+- Download and install ![Arduino IDE](https://www.arduino.cc/en/software).
+- Install ESP32 on the Arduino IDE as shown below, and you can refer to ![this link](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html).
 - Fill in the following link in the Additional Boards Manager URLs section of the Settings screen under File -> Preferences and save.
-  ```json
+  ```
   https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   ```
   ![ESP32-C3-Zero -05.jpg](https://www.waveshare.com/w/upload/a/a1/ESP32-C3-Zero_-05.jpg)
 
 - Search esp32 on Board Manager to install, and restart Arduino IDE to take effect.
   ![ESP32-S3-Touch-LCD-4.3-Ar.jpg](https://www.waveshare.com/w/upload/5/59/ESP32-S3-Touch-LCD-4.3-Ar.jpg)
-- Open the Arduino IDE and note that Tools in the menu bar selects the corresponding 16MB Flash and enables QSPI PSRAM, as shown in the following figure.
+- Open the Arduino IDE and note that Tools in the menu bar selects the corresponding **16MB Flash** and enables **QSPI PSRAM**, as shown in the following figure.
   ![ESP32-S3-LCD-4.3-Ar02.jpg](https://www.waveshare.com/w/upload/c/cd/ESP32-S3-LCD-4.3-Ar02.jpg)
 
 #### Library Installation
-- TFT_SPI, lvgl libraries need to be configured after installation, it is recommended to directly use the TFT_eSPI_Setups, TFT_eSPI, lvgl folder in Esp32-s3-lcd-1.28-lib and copy it to the C:\Users\xxxx\Documents\Arduino\libraries directory. xxxx represents the user name of your computer, please be careful in identifying it.
+- TFT_SPI, lvgl libraries need to be configured after installation, it is recommended to directly use the TFT_eSPI_Setups, TFT_eSPI, lvgl folder in ![Esp32-s3-lcd-1.28-lib](https://files.waveshare.com/wiki/ESP32-S3-LCD-1.28/Esp32-s3-lcd-1.28-lib.zip) and copy it to the C:\Users\xxxx\Documents\Arduino\libraries directory. xxxx represents the user name of your computer, please be careful in identifying it.
   ![ESP32-S3-Touch-LCD-1.28-01.jpg](https://www.waveshare.com/w/upload/f/f6/ESP32-S3-Touch-LCD-1.28-01.jpg)
