@@ -82,3 +82,22 @@ Screenshots from the video:
 ![CAMTASIA_turbo_boost_gauge_waveshare_round_lcd (Time 0_43_35;28)](https://github.com/upiir/custom_boost_gauge_esp32/assets/117754156/2508a502-6e67-427f-bfd3-cac5fc1c0e3e)
 ![CAMTASIA_turbo_boost_gauge_waveshare_round_lcd (Time 0_43_41;27)](https://github.com/upiir/custom_boost_gauge_esp32/assets/117754156/f91c2691-30e7-4159-a2dd-49c8fc4b51e1)
 ![CAMTASIA_turbo_boost_gauge_waveshare_round_lcd (Time 0_43_50;24)](https://github.com/upiir/custom_boost_gauge_esp32/assets/117754156/8f098d27-a8d8-4f33-a75b-eb7a65e78cb3)
+
+# Upload Code
+## Arduino
+- Download and install Arduino IDE.
+- Install ESP32 on the Arduino IDE as shown below, and you can refer to this link.
+- Fill in the following link in the Additional Boards Manager URLs section of the Settings screen under File -> Preferences and save.
+  '''json
+  https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+  '''
+  ![ESP32-C3-Zero -05.jpg](https://www.waveshare.com/w/upload/a/a1/ESP32-C3-Zero_-05.jpg)
+
+- Search esp32 on Board Manager to install, and restart Arduino IDE to take effect.
+  ![ESP32-S3-Touch-LCD-4.3-Ar.jpg](https://www.waveshare.com/w/upload/5/59/ESP32-S3-Touch-LCD-4.3-Ar.jpg)
+- Open the Arduino IDE and note that Tools in the menu bar selects the corresponding 16MB Flash and enables QSPI PSRAM, as shown in the following figure.
+  ![ESP32-S3-LCD-4.3-Ar02.jpg](https://www.waveshare.com/w/upload/c/cd/ESP32-S3-LCD-4.3-Ar02.jpg)
+
+### Library Installation
+- TFT_SPI, lvgl libraries need to be configured after installation, it is recommended to directly use the TFT_eSPI_Setups, TFT_eSPI, lvgl folder in Esp32-s3-lcd-1.28-lib and copy it to the C:\Users\xxxx\Documents\Arduino\libraries directory. xxxx represents the user name of your computer, please be careful in identifying it.
+  ![ESP32-S3-Touch-LCD-1.28-01.jpg](https://www.waveshare.com/w/upload/f/f6/ESP32-S3-Touch-LCD-1.28-01.jpg)
