@@ -6,7 +6,7 @@ TFT_eSPI tft = TFT_eSPI();  // Invoke custom library
 #include "boost_gauge_images.h" // all 61 images for boost gauge graphics
 
 // set the mode
-int mode = 1; // 0 = ping pong animation, 1 = get value from boost pressure sensor
+int mode = 0; // 0 = ping pong animation, 1 = get value from boost pressure sensor
 
 int frame = 0; // current frame
 int frame_inc = 1; // frame increment
